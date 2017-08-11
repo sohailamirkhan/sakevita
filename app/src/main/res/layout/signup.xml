@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#42413f">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:text="SIGN UP"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:hint="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:hint="Password"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Confirm Password"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextCustName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Customer Fullname"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editMobNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Mobile Number"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Address"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editTextCylType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Cylinder Type"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextDiscount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Discount"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editTextPanCard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="PAN Card"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <EditText
+        android:id="@+id/editTextGstIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="GST IN"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:layout_marginBottom="60dp" />
+
+    </ScrollView>
+
+</LinearLayout>
